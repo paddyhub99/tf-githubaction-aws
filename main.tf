@@ -9,3 +9,7 @@ terraform {
     region = "us-east-1"
   }
 }
+
+resource "aws_s3_bucket" "name" {
+  bucket = "paddy-aarvi-anuja-92"
+}
